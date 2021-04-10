@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+    
+	<head>
+        <link rel="stylesheet" href="midas.css">
+        <meta charset="utf-8">
+        <title>Midas IIITD</title>
+    </head>
+    
+	<body>
+		<div class="container">
+			<img id="logo" src="midas logo1.png" alt="logo">
+			<h1 id="heading">Midas IIITD</h1>
+
+			<div class="dropdown" onmouseover="inverter('one')" onmouseout = "converter('one')">
+
+            <label for="Home">Home
+                <i class="arrow down" id="one"></i>
+				<div class="dropdown-content">
+					<a href="#">Login</a>
+					<a href="#">play</a>
+					<a href="#">Gallary</a>
+				  </div>
+            </label>
+			</div>
+                
+			<div class="dropdown" onmouseover="inverter('two')" onmouseout = "converter('two')">
+            <label for="Pages">Pages
+                <i class="arrow down" id="two"></i>
+				<div class="dropdown-content">
+					<a href="#">Summary</a>
+					<a href="#">history</a>
+					<a href="#">Mission</a>
+				  </div>
+            </label>
+			</div>	
+			<div class="dropdown" onmouseover="inverter('three')" onmouseout = "converter('three')">	
+                
+            <label for="Services">Services
+				<i class="arrow down" id="three"></i>
+				<div class="dropdown-content">
+					<a href="#">Help</a>
+					<a href="#">Q&A</a>
+					<a href="#">Benifits</a>
+				  </div>
+            </label>
+		</div>	
+
+		<div class="dropdown" onmouseover="inverter('four')" onmouseout = "converter('four')">	
+            <label for="Blog">Blog
+				<i class="arrow down" id="four"></i>
+				<div class="dropdown-content">
+					<a href="#">Policy</a>
+					<a href="#">product</a>
+					<a href="#">About</a>
+				  </div>
+            </label>    
+		</div>
+		<div class="dropdown">	
+            <label for="Contacts">Contacts
+				<div class="dropdown-content">
+					<a href="#">Name:Aditi Bhatt</a>
+				<a href="#">mobile:9554599955</a>
+				</div>
+			</label>
+			</div>
+			<input type="text" id="myInput"  placeholder="Search..">
+			<input type="image" id="search"src="search.png">
+
+            
+            <div class="menu-btn">
+
+                <nav role="navigation">
+					<div id="menuToggle">
+					 
+					  <input type="checkbox" id="check" onclick="hamburger()" />
+					  
+					  
+					  <span></span>
+					  <span></span>
+					  <span></span>
+					  
+					 
+					  <ul id="menu">
+						<a href="#"><li id="hello"></li></a>
+						<a href="#"><li id="signout" onclick="LogoutUser()">Sign Out</li></a>
+						<a href="file:///C:/Users/hp/Desktop/Midas-task/public/CLICK.html" target="_blank"><li>Home</li></a>
+						<a href="file:///C:/Users/hp/Desktop/Midas-task/public/CLICK.html" target="_blank"><li>About</li></a>
+						<a href="file:///C:/Users/hp/Desktop/Midas-task/public/CLICK.html" target="_blank"><li>Info</li></a>
+						
+
+						
+					  </ul>
+					</div>
+				  </nav>
+                    
+            </div>
+                
+        </div>
+	
+                
+
+        <div class="slideshow-container">
+		
+			<div class="image">
+				<div class="numbertext">1 / 3</div>
+				<img class="photos" src="pic3.jpg" alt="photos">
+			</div>
+
+			<div class="image">
+				<div class="numbertext">2 / 3</div>
+				<img class="photos" src="pic2.jpeg" alt="photos">
+			</div>
+
+			<div class="image">
+				<div class="numbertext">3 / 3</div>
+				<img class="photos" src="pic1.jpeg" alt="photos">
+			</div>
+            
+			<div class="dot-container">
+				<span class="dot"></span> 
+				<span class="dot"></span> 
+				<span class="dot"></span> 
+			</div>
+        
+		</div>
+		
+		<div class="circle">
+			
+			<div class="text">
+			<p id="task">Web App <br>Task</p>
+			<p id="para">Lorem Ipsum is simply dummy text of the<br> printing and typesetting industry.<br><br></p>
+			<div class="element">
+			<button class="button" id="login" ondblclick="userLogin()">LOGIN | SIGNUP</button>
+			
+			<input type="image" id="pause"  src="pause.png">
+			<a target="_blank" href="https://www.youtube.com/channel/UCPgCZNqUo3aaIfwtvXinAXw
+			"><label id="youtube" for="GO TO YOUTUBE">GO TO YOUTUBE</label></a>
+			
+			</div>
+			
+		</div>
+	
+			
+		<div class="footer" id="footer"></div>
+		<div class="square" id="square">
+		<a href="#section"><i class="arrow down" id="five"></i></a>	
+		</div>
+		<div id="section"></div>
+	
+		
+	
+		   
+		<script src="https://www.gstatic.com/firebasejs/8.3.2/firebase-app.js"></script>
+
+  
+  <script src="https://www.gstatic.com/firebasejs/8.3.2/firebase-analytics.js"></script>
+
+  
+  <script src="https://www.gstatic.com/firebasejs/8.3.2/firebase-auth.js"></script>
+  
+ 
+  <script src="midas.js">
+	  
+	 
+  </script>
+		
+    </body>
+</html>
+
